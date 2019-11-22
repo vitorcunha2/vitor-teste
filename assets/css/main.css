@@ -1994,12 +1994,20 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-		.features .qualidade {
+		.featuresDesktop .qualidade {
 			padding: 70px;
 			align-items: center;
 			align-self: center;
 			text-align: center;
 		}
+
+		.featuresMobile .qualidade {
+			padding: 25px;
+			align-items: center;
+			align-self: center;
+			text-align: center;
+		}
+
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
 			width: 50%;
@@ -2182,7 +2190,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 992px) {
 
 			.features {
 				display: block;
@@ -4044,8 +4052,8 @@ input, select, textarea {
 		@media (max-width: 500px) {
 			
 			.featuresMobile > section > div > div > img {
-				height: 100%;
-				width: 100%;
+				height: 70%;
+				width: 70%;
 			}
 		}
 
