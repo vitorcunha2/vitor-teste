@@ -4085,7 +4085,9 @@ input, select, textarea {
 		}
 
 		@media (max-width: 576px) {
-
+			.carousel-caption {
+				padding-bottom: 10% !important;
+			}
 			.carousel-desktop {
 				display: none !important;
 			}
