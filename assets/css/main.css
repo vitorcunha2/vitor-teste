@@ -4083,3 +4083,23 @@ input, select, textarea {
 		.endereco {
 			color: #ffffff;
 		}
+
+		@media (max-width: 576px) {
+
+			.carousel-desktop {
+				display: none !important;
+			}
+			.carousel-mobile {
+				display: block !important;
+				width: 100%;
+			}
+		}
+
+		.carousel-desktop {
+			width: 100%;
+			display: block;
+		}
+
+		.carousel-mobile {
+			display: none;
+		}
