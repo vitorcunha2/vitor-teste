@@ -4086,7 +4086,7 @@ input, select, textarea {
 
 		@media (max-width: 576px) {
 			.carousel-caption {
-				padding-bottom: 10% !important;
+				padding-bottom: 12% !important;
 			}
 			.carousel-desktop {
 				display: none !important;
@@ -4094,6 +4094,10 @@ input, select, textarea {
 			.carousel-mobile {
 				display: block !important;
 				width: 100%;
+			}
+
+			.p-residencial {
+				padding-bottom: 110%;
 			}
 		}
 
@@ -4104,4 +4108,16 @@ input, select, textarea {
 
 		.carousel-mobile {
 			display: none;
+		}
+
+		.carousel-button {
+			color: #000000 !important;
+			background-color:#ffffff !important;
+			height: 100%;
+			opacity: 0.8 !important;
+			font-weight: 500 !important;
+		}
+
+		.carousel-button:hover {
+			opacity: 1 !important;
 		}
