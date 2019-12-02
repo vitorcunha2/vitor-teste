@@ -4079,6 +4079,10 @@ input, select, textarea {
 			.p-residencial {
 				padding-bottom: 110%;
 			}
+
+			.logo-footer {
+				width: 15%;
+			}
 		}
 
 		.carousel-desktop {
@@ -4119,3 +4123,4 @@ input, select, textarea {
 				padding-left: 2%;
 			}
 		}
+
