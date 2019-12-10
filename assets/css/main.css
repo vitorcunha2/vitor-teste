@@ -4068,6 +4068,7 @@ input, select, textarea {
 			.carousel-caption {
 				padding-bottom: 12% !important;
 			}
+
 			.carousel-desktop {
 				display: none !important;
 			}
@@ -4124,8 +4125,6 @@ input, select, textarea {
 			}
 		}
 
-		/* .carousel-item img {
-			max-height: 900px;
-			min-height: 500px;
-			min-width: auto;
-		  } */
+		.entregues {
+			height: 850px;
+		}
