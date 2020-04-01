@@ -10033,7 +10033,7 @@ hr.light {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -10046,6 +10046,9 @@ hr.light {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
     opacity: 0.8;
+  }
+  #mainNav.navbar-scrolled .nav-item .nav-link {
+    color: #212529;
   }
   #mainNav.navbar-scrolled .big-screen-logo{
     display: none;
