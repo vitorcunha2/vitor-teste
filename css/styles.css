@@ -10039,6 +10039,9 @@ hr.light {
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #fff;
   }
+  #mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #122D23;
+  }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
@@ -10049,6 +10052,10 @@ hr.light {
   }
   #mainNav.navbar-scrolled .nav-item .nav-link {
     color: #212529;
+  }
+
+  #mainNav.navbar-scrolled .nav-item .nav-link.active {
+    color: #47B272;
   }
   #mainNav.navbar-scrolled .big-screen-logo{
     display: none;
@@ -10073,7 +10080,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/Banner_Okafundo.png");
+  background: url("../assets/img/Banner_Okafundo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
