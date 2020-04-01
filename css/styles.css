@@ -10078,8 +10078,7 @@ hr.light {
 }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
+  height: inherit;
   background: url("../assets/img/Banner_Okafundo.png");
   background-position: center;
   background-repeat: no-repeat;
